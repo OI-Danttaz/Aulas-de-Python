@@ -1,0 +1,15 @@
+#Crie um script de Python, que leia o dia, o mes e o ano da pessoa e mostre uma mensagem com a data formatada.
+
+dia = input('Insira o dia do seu nascimento:')
+mes = input('Insira o mes do seu nascimento:')
+ano = input('Insira o ano do seu nascimento:')
+
+print (dia,'/',mes,'/',ano)
+
+todavia eu prefiros desta forma
+
+dia = input('Insira o dia do seu nascimento:')
+mes = input('Insira o mes do seu nascimento:')
+ano = input('Insira o ano do seu nascimento:')
+
+print (dia,'.',mes,'.',ano)
