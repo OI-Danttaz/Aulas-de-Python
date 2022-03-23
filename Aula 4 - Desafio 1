@@ -1,0 +1,14 @@
+Formato 1
+
+#crie um programa que escreva 'Ola Mundo', na tela.
+
+print('Ola Mundo')
+
+--------------------------------------------
+
+FORMATO 2
+
+#crie um programa que escreva 'Ola Mundo', na tela.
+
+msg = 'Ola Mundo'
+print(msg)
