@@ -16,6 +16,9 @@ n1 = 3
 n2 = 2
 s  = n1 + n2 ________________________ este operador (+), não valerá como adição, ele irá
                                       dispor os horizontalmente os valores recebidos nas variaveis,
-                                      ou seja, os números, criando uma CONCATENAÇÃO
-
+                                      ou seja, os números, criando uma CONCATENAÇÃ
 print('A soma vale:',s)
+
+Resultado: 32
+
+CONCATENAR: ligar(-se), juntar(-se) numa cadeia ou sequência lógica ou orgânica.
