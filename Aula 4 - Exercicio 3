@@ -1,6 +1,21 @@
 #Crie um script de Python,que leia dois numeros e tente mostrar a soma entre eles.
 
+FORMATO 1
+
 n1 = input ('Insira o primeiro numero:')
 n2 = input ('Insira o segundo numero:')
+s  = n1 + n2 
 
-print ('A soma é:', n1+n2)
+print ('A soma é:', s)
+
+dessa forma o (+), não esta funcionando com adição e sim como concatenação
+
+exemplo:
+
+n1 = 3
+n2 = 2
+s  = n1 + n2 ________________________ este operador (+), não valerá como adição, ele irá
+                                      dispor os horizontalmente os valores recebidos nas variaveis,
+                                      ou seja, os números, criando uma CONCATENAÇÃO
+
+print('A soma vale:',s)
