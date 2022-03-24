@@ -1,6 +1,6 @@
 #Crie um script de Python,que leia dois numeros e tente mostrar a soma entre eles.
 
-FORMATO 1
+FORMATO 1 (VARIVEL NÃO DECLARDA C/ TIPO NATIVO)
 
 n1 = input ('Insira o primeiro numero:')
 n2 = input ('Insira o segundo numero:')
@@ -42,3 +42,21 @@ bool  ()
 str   ()
 
 obs: no python, toda variavel (objeto) nao tipada, é considerada uma string (str()).
+
+FORMATO 2 (VARIAVEL DECLARADA C/ TIPO INT())
+
+n1 = int(input ('Insira o primeiro numero:'))
+n2 = int(input ('Insira o segundo numero:'))
+s  = n1 + n2
+print('A soma vale:',s)
+
+FORMATO 3 (VARIAVEL DRECLARADA C/ TIPO INT() + FUNÇAO PRINT C/ METODO .FORMART {})
+
+n1 = int(input ('Insira o primeiro numero:'))
+n2 = int(input ('Insira o segundo numero:'))
+s  = n1 + n2
+print('A soma vale {}'.format{s})
+                   _________________________________ temos uma mascara de formatação, que será
+                                                     substituido pelo metodo da propria string
+                                                     .format{s}
+                                                     
