@@ -1,0 +1,37 @@
+# Utilizando os conhecimentos aprendidos ate essa aula. Decidi criar um codigo autoral para praticar!
+
+nome  = str(input('Escreva seu nome:'))
+idade = int(input('Digite sua idade:'))
+peso  = float(input('Digite seu peso:'))
+endereço = str(input('Escreva seu endereço:'))
+numero = int(input('Digite o numero da sua casa:'))
+contato = int(input('Digite o seu telefone:'))
+print('Você se chama {}, possue {} anos de idade, seu peso é {}, mora na rua {}, numero {} e possue o contato {}'.format(nome, idade, peso, endereço, numero, contato))
+
+obs: peso = float - utilizei o tipo float(), sem contar que o operador poderia escrever apos o peso a palavara kg, dando erro no meu codigo.
+
+FORMA ALTERADA
+
+nome  = str(input('Escreva seu nome:'))
+idade = int(input('Digite sua idade:'))
+peso  = str(input('Digite seu peso:'))
+endereço = str(input('Escreva seu endereço:'))
+numero = int(input('Digite o numero da sua casa:'))
+contato = int(input('Digite o seu telefone:'))
+print('Você se chama {}, possue {} anos de idade, seu peso é {}, mora na rua {}, numero {} e possue o contato {}'.format(nome, idade, peso, endereço, numero, contato))
+
+obs: contato = int - utilize o tipo int(), sem contar que o operador poderia escrever um ponto para dividir o DDD do numero principal, dando erro no meu codigo.
+
+FORMA ALTERADA
+
+nome  = str(input('Escreva seu nome:'))
+idade = int(input('Digite sua idade:'))
+peso  = str(input('Digite seu peso:'))
+endereço = str(input('Escreva seu endereço:'))
+numero = int(input('Digite o numero da sua casa:'))
+contato = str(input('Digite o seu telefone:'))
+print('Você se chama {}, possue {} anos de idade, seu peso é {}, mora na rua {}, numero {} e possue o contato {}'.format(nome, idade, peso, endereço, numero, contato))
+
+CONCLUSÃO:
+
+Aprendi que importante programarmos, pensado em como o operador ira responder a função input(). E atentar-se ao tipo primitivo da variavel (objeto).
