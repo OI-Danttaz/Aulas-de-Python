@@ -40,3 +40,5 @@ int   ()
 float ()
 bool  ()
 str   ()
+
+obs: no python, toda variavel (objeto) nao tipada, é considerada uma string (str()).
