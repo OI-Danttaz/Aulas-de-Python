@@ -1,0 +1,39 @@
+n1 = int(input('Digite um valor:'))
+n2 = int(input('Digite outro valor:))
+s  = n1+n2
+
+A partir dos dados acima, escreva um programa que leia 2 numeros
+e apresente a seguinte mensagem:
+
+A some entre n1 e n2 vale:
+
+FORMATO 1 (FORMA AMADORA)
+
+n1 = int(input('Digite um valor:'))
+n2 = int(input('Digite outro valor:))
+s  = n1+n2
+
+print('A soma entre', n1, 'e', n2, 'vale':)
+                    ______________________________________ neste caso há um excesso de '', tornando o cogido mais bagunçado.
+                                                           Utilizando uma formatação simploria, amadora... Embora funcione!
+                    
+FORMATO 2 (FORMA PROFISSIONAL)
+
+n1 = int(input('Digite um valor:'))
+n2 = int(input('Digite outro valor:'))
+s = n1+n2
+
+print('a soma entre {} e {} vale {}'.format(n1, n2, s))
+                    _______________________________________ neste caso temos uma formatação mais profissional.
+                                                            Onde as {}, são mascaras de formatação, que serão adicionados
+                                                            valores utilizando o metodo .format() da propria string.
+                                                            Exemplo:
+                                                            
+                                                           
+                                                            n1 = 6
+                                                            n2 = 2
+                                                            s = n1+ n2
+                                                            print(a soma entre {} e {} vale {}.format(n1, n2, s))
+                                                           
+                                                            resultado = a soma entr {6} e {2} vale {8}
+                                                          
