@@ -23,6 +23,10 @@ Resultado: 32
 
 CONCATENAR: ligar(-se), juntar(-se) numa cadeia ou sequência lógica ou orgânica.
 
+
+                                                                      --- AULA 6 ---
+                                                  
+
 ENTENDENDO O PROBLEMA
 
 n1 = () input('Insira o primeiro numero:')
