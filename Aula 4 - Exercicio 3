@@ -14,7 +14,7 @@ exemplo:
 
 n1 = 3
 n2 = 2
-s  = n1 + n2 ________________________ este operador (+), não valerá como adição, ele irá
+s  = n1 + n2 ________________________ Este operador (+), não valerá como adição, ele irá
                                       dispor os horizontalmente os valores recebidos nas variaveis,
                                       ou seja, os números, criando uma CONCATENAÇÃ
 print('A soma vale:',s)
@@ -22,3 +22,21 @@ print('A soma vale:',s)
 Resultado: 32
 
 CONCATENAR: ligar(-se), juntar(-se) numa cadeia ou sequência lógica ou orgânica.
+
+ENTENDENDO O PROBLEMA
+
+n1 = () input('Insira o primeiro numero:')
+n2 = () input('Insira o segundo numero:')
+           _______________________________________ Os valores auferidos pela função input, serão obrigatoriatoriamente
+                                                   assimilados, pelo interpretador, como strings (um conjunto de caracteres),
+                                                   logo:
+                                                   
+                                                   s = n1 + n2 - o operador (+), ira ao inves de somar, ele ira concatenar os valores
+                                                   auferidos pelo função input das variaveis n1 e n2
+
+- Para que haja uma soma, é necessario adicionar o tipo da variavel, que podem ser:
+
+int   ()
+float ()
+bool  ()
+str   ()
