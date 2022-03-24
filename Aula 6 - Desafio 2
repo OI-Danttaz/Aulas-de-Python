@@ -1,0 +1,15 @@
+# Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possiveis sobre ele.                                                      
+                                                                                                       
+a = input('Digite algo:')                                                                              
+print(type(a))                                                                                         
+print(a.isnumeric())                                                                                   
+print(a.isalpha())                                                                                     
+print(a.isdigit())                                                                                     
+print(a.islower())                                                                                     
+print(a.isprintable())                                                                                 
+print(a.isupper())                                                                                     
+print(a.isdecimal())                                                                                   
+
+_______________________________ nesse caso estou me baseando em valores boleanos (True/False).
+                                o tipo da variavel sera string, pois estar em tipo nativo
+                                                                                                       
